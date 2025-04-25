@@ -1,6 +1,7 @@
 "use client";
 import { CldImage, CldUploadWidget } from "next-cloudinary";
 import React, { useState } from "react";
+import { SourceTextModule } from "vm";
 
 interface CloudinaryResult {
   public_id: string;
